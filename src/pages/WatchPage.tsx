@@ -100,7 +100,7 @@ export function Component() {
   };
 
   const handleGoBack = () => {
-    navigate("/browse");
+    navigate("");
   };
 
   if (!!videoJsOptions.width) {
